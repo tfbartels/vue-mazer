@@ -1,0 +1,53 @@
+[
+    {
+        "type": "title",
+        "name": "Menu"
+    },
+    {
+        "type": "item",
+        "name": "Dashboard",
+        "icon": "bi bi-grid-fill",
+        "routelink": "/"
+    },
+    {
+        "type": "item",
+        "name": "Datatable",
+        "icon": "bi bi-grid-1x2-fill",
+        "routelink": "/datatable"
+    },
+    {
+        "type": "item-submenu",
+        "name": "Components",
+        "icon": "bi bi-grid-1x2-fill",
+        "submenu":[
+            {
+                "name": "Alert",
+                "routelink": ""
+            },
+            {
+                "name": "Card",
+                "routelink": ""
+            }
+        ]
+    },
+    {
+        "type": "title",
+        "name": "Forms"
+    },
+    {
+        "type": "item-submenu",
+        "name": "Components",
+        "icon": "bi bi-grid-1x2-fill",
+        "submenu":[
+            {
+                "name": "Alert",
+                "routelink": ""
+            },
+            {
+                "name": "Card",
+                "routelink": ""
+            }
+        ]
+    }
+
+]

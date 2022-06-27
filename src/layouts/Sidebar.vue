@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="sidebar-menu">
-                <Menu></Menu>
+                <Menu :itens="menu"></Menu>
             </div>
         </div>
     </div>
@@ -30,11 +30,17 @@
 <script>
 
 import Menu from '@/components/Menu.vue';
+import ItensMenu from '../menu.json';
 
 export default {
     name: 'SideBar',
     components: {
-        Menu
+        Menu,
+    },
+    data(){
+        return{
+            menu: ItensMenu
+        }
     }
 }
 </script>
